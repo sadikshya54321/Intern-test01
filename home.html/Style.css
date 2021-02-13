@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("images/image2.png");
+       background-repeat: no-repeat;
+       background-size: 1880px 1000px;
+}
+
+/* navigation */
+.nav-container{
+    background: #FFFFFF;
+    height: 100px; 
+    border-style: none;
+    width: 1880px;
+    left: 20px;
+top: 20px;
+
+}
+.wrapper {
+width: 1880px;
+margin: 0 auto;
+border-radius: 0px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px; 
+    
+}
+nav ul{
+    display: flex;
+    margin: 10px;
+    padding: 0;
+}
+
+.logo{
+    float: left;
+    width: 25%;
+    padding: 2px;
+    /*height: 31.284751892089844px;
+width: 107.88910675048828px;
+left: 25.77874755859375px;
+top: 28.02490234375px;
+border-radius: 0px;*/
+/* Dark */
+/*background: #6A7081;*/
+} 
+.logo img:hover{
+    background-color: #100080;
+}
+.nav-items li{
+    list-style: none;
+    margin: 10px;
+
+
+font-family: Montserrat;
+font-style: normal;
+
+/* identical to box height */
+
+/*color:#6A7081 ;*/
+} 
+/*.nav-items li:nth-last-of-type(1){
+margin: 0;
+list-style: none;
+}*/
+.vl{
+    height: 0px;
+width: 120.00000000000009px;
+left: 422px;
+top: 0px;
+bottom: 0px;
+border-radius: nullpx;
+position: none;
+    border: 1px solid #6A7081;
+    transform: rotate(90deg);
+}
+.nav-items li a{
+line-height: 17px;
+color: #6A7081;
+font-family: Montserrat;
+font-size: 14px;
+text-decoration: none;
+justify-content: space-between;
+}
+.nav-items li a:hover{
+    text-decoration-color:  blue;
+    color:  blue;
+}
+.wrapper2{
+width: 1880px;
+margin: 0 ;
+border-radius: 0px;
+
+}
+.first-content{
+text-align: left;
+    align-content: center;
+}
+.first-content h1{
+    position: absolute;
+width: 807px;
+height: 148px;
+left: 59px;
+top: 320px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 74px;
+    color: #005EAD;
+    text-align: left;
+    align-content: center;
+}
+.first-content p{
+    position: absolute;
+width: 750px;
+height: 34px;
+left: 61px;
+top: 500px;
+
+    color: #6A7081;
+   font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+
+}
+.search-box{
+    position: absolute;
+left: 8.79%;
+right: 13.33%;
+top: 85%;
+bottom: 85%;
+
+    width: 150px;
+    height: 40px;
+    background: #005EAD;
+}
+.search-box button{
+    position: absolute;
+left: 10.67%;
+right: 30.67%;
+top: 35%;
+bottom: 22.5%;
+
+    border-style: none;
+    font-family: Tajawal;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+background: #005EAD;
+color: #FFFFFF;
+}
+.search-box1{
+    position: absolute;
+width: 210px;
+height: 50px;
+left: 195px;
+top: 902px;
+/* Primary Color */
+text-align: center;
+background: #005EAD;
+}
+.search-box1 button{
+letter-spacing: 0.02em;
+margin: auto;
+width: 150px;
+height: 22px;
+left: 225px;
+top: 916px;
+border-style: none;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+color: #FFFFFF;
+background: #005EAD;
+}
+.search-box2{
+    position: absolute;
+width: 275px;
+height: 50px;
+left: 405px;
+top: 902px;
+/* Primary Color */
+text-align: center;
+vertical-align: middle;
+background: #2AAEF8;
+}
+.search-box2 button{
+width: 217px;
+height: 22px;
+left: 433px;
+top: 916px;
+border-style: none;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+color: #FFFFFF;
+background: #2AAEF8;
+}
+.grid-container{
+    position: absolute;
+width: 1920px;
+height: 180px;
+left: 0px;
+top: 952px;
+
+/* Dark 40% */
+
+background: #C3C6CD;
+}
+.grid-container > div {
+position: absolute;
+width: 420px;
+height: 60px;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+}
+.grid-container > div option{
+    position: absolute;
+left: 5.28%;
+right: 59.17%;
+top: 35%;
+bottom: 31.67%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #6A7081;
+
+}
+.suggested-cars{
+position: absolute;
+width: 1556px;
+height: 466px;
+left: 195px;
+top: 1220px;
+
+}
+.read-more{
+    position: absolute;
+width: 1920px;
+height: 801px;
+left: 0px;
+top: 1831px;
+
+background: #F8F8F9;
+}
+.read-more button{
+    width: 129px;
+    height: 40px;
+    position: absolute;
+
+    
+left: 0.67%;
+right: 30.42%;
+top: 60%;
+bottom: 22.5%;
+
+font-family: Tajawal;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+    background: #005EAD;
+}
+.class-logo{
+    position: absolute;
+width: 1530px;
+height: 181.81px;
+left: 195px;
+top: 2649.59px;
+
+}
+.vehicle-type{
+    position: absolute;
+width: 1920px;
+height: 860px;
+left: 0px;
+top: 2852px;
+background: #005EAD;
+
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.Our-offers{
+position: absolute;
+width: 1530px;
+height: 761px;
+left: 195px;
+top: 3812px;
+color: #005EAD;
+}
+.Our-offers offer-container{
+    
+position: absolute;
+width: 905px;
+height: 522px;
+left: 178px;
+top: 3886px;
+
+background-image: url("images/newyr.png");
+}
+
+.content{
+    position: absolute;
+width: 1920px;
+height: 363px;
+left: 0px;
+top: 4877px;
+
+background: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
