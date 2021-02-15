@@ -18,8 +18,8 @@ body{
     width: 1880px;
     left: 20px;
 top: 20px;
-
 }
+
 .wrapper {
 width: 1880px;
 margin: 0 auto;
@@ -57,13 +57,9 @@ border-radius: 0px;*/
 .nav-items li{
     list-style: none;
     margin: 10px;
-
-
 font-family: Montserrat;
 font-style: normal;
-
 /* identical to box height */
-
 /*color:#6A7081 ;*/
 } 
 /*.nav-items li:nth-last-of-type(1){
@@ -124,14 +120,12 @@ width: 750px;
 height: 34px;
 left: 61px;
 top: 500px;
-
     color: #6A7081;
    font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 17px;
-
 }
 .search-box{
     position: absolute;
@@ -139,7 +133,6 @@ left: 8.79%;
 right: 13.33%;
 top: 85%;
 bottom: 85%;
-
     width: 150px;
     height: 40px;
     background: #005EAD;
@@ -150,7 +143,6 @@ left: 10.67%;
 right: 30.67%;
 top: 35%;
 bottom: 22.5%;
-
     border-style: none;
     font-family: Tajawal;
 font-style: normal;
@@ -158,9 +150,7 @@ font-weight: bold;
 font-size: 14px;
 line-height: 17px;
 /* identical to box height */
-
 letter-spacing: 0.05em;
-
 background: #005EAD;
 color: #FFFFFF;
 }
@@ -217,6 +207,7 @@ line-height: 22px;
 color: #FFFFFF;
 background: #2AAEF8;
 }
+/*FOR SEARCH DIV */
 .grid-container{
     position: absolute;
 width: 1920px;
@@ -226,20 +217,19 @@ top: 952px;
 display: grid;
 /*grid-template-columns:auto auto auto;*/
 /* Dark 40% */
-padding: 10px;
 background: #C3C6CD;
 }
 .grid-item {
 position: absolute;
 width: 420px;
 height: 60px;
-/*left: 195px;
-top: 1012px;*/
+left: 195px;
+top:60px;
+/*top: 1012px;*/
 /*left: 0%;
 right: 0%;
 top: 0%;
 bottom: 0%;*/
-grid-template-columns:auto auto auto;
 background: #FFFFFF;
 }
 .grid-item2{
@@ -247,6 +237,7 @@ background: #FFFFFF;
 width: 421px;
 height: 60px;
 left: 645px;
+top:60px;
 /*top: 1012px;*/
 background: #FFFFFF;
 }
@@ -257,10 +248,20 @@ height: 60px;
 left: 1096px;
 /*top: 1012px;
 */
+top:60px;
 background: #FFFFFF;
 }
-.grid-item select{
+.grid-item4{
     position: absolute;
+    width: 181px;
+height: 60px;
+left: 1544px;
+/*top: 1012px;*/
+top:60px;
+background: #005EAD;
+}
+.grid-item select{
+position: absolute;
 left: 5.28%;
 right: 59.17%;
 top: 35%;
@@ -272,11 +273,8 @@ font-weight: 500;
 font-size: 16px;
 line-height: 20px;
 /* identical to box height */
-
 text-transform: uppercase;
-
 color: #6A7081;
- 
 } 
 .grid-item2 select{
     position: absolute;
@@ -291,11 +289,8 @@ font-weight: 500;
 font-size: 16px;
 line-height: 20px;
 /* identical to box height */
-
 text-transform: uppercase;
-
 color: #6A7081;
- 
 } 
 .grid-item3 select{
     position: absolute;
@@ -310,31 +305,31 @@ font-weight: 500;
 font-size: 16px;
 line-height: 20px;
 /* identical to box height */
-
 text-transform: uppercase;
-
 color: #6A7081;
- 
 } 
-.grid-item4 {
+.grid-item4 button{
     position: absolute;
-width: 181px;
-height: 60px;
-left: 1544px;
-top: 1012px;
- border-style: none;
+    left: 5.28%;
+right: 59.17%;
+top: 35%;
+bottom: 31.67%;
+/*width: 83px;
+height: 22px;
+left: 1571px;
+top: 1033px;*/
+border-style: none;
 font-family: Montserrat;
 font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
 /* identical to box height */
+letter-spacing: 0.05em;
+background-color: #005EAD;
+color: #FFFFFF;
+}
 
-text-transform: uppercase;
-background: #005EAD;
-color: #6A7081;
- 
-} 
 .suggested-cars{
 position: absolute;
 width: 1556px;
@@ -343,46 +338,43 @@ left: 195px;
 top: 1220px;
 
 }
+
 .read-more{
     position: absolute;
 width: 1920px;
 height: 801px;
 left: 0px;
 top: 1831px;
-
 background: #F8F8F9;
 }
 .read-more button{
     width: 129px;
     height: 40px;
     position: absolute;
-
-    
 left: 0.67%;
 right: 30.42%;
 top: 60%;
 bottom: 22.5%;
-
 font-family: Tajawal;
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
 line-height: 17px;
 /* identical to box height */
-
 letter-spacing: 0.05em;
 
 color: #FFFFFF;
     background: #005EAD;
 }
+
 .class-logo{
     position: absolute;
 width: 1530px;
 height: 181.81px;
 left: 195px;
 top: 2649.59px;
-
 }
+
 .vehicle-type{
     position: absolute;
 width: 1920px;
@@ -390,12 +382,10 @@ height: 860px;
 left: 0px;
 top: 2852px;
 background: #005EAD;
-
 /* identical to box height */
-
-
 color: #FFFFFF;
 }
+
 .Our-offers{
 position: absolute;
 width: 1530px;
@@ -404,14 +394,13 @@ left: 195px;
 top: 3812px;
 color: #005EAD;
 }
+
 .Our-offers offer-container{
-    
 position: absolute;
 width: 905px;
 height: 522px;
 left: 178px;
 top: 3886px;
-
 background-image: url("images/newyr.png");
 }
 
@@ -421,7 +410,6 @@ width: 1920px;
 height: 363px;
 left: 0px;
 top: 4877px;
-
 background: #FFFFFF;
 }
 
