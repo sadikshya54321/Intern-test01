@@ -329,7 +329,7 @@ letter-spacing: 0.05em;
 background-color: #005EAD;
 color: #FFFFFF;
 }
-
+/*FOR SUGGESTED CAR DIV*/
 .suggested-cars{
 position: absolute;
 width: 1556px;
@@ -368,25 +368,130 @@ text-align: left;
 position: absolute;
 width: 438px;
 height: 290px;
-left: 217px;
-top: 60px;
+/*left: 217px;*/
+top: 100px;
+}
+.suggested-item1 p{
+    position: absolute;
+width: 431px;
+height: 32px;
+/*left: 227px;*/
+top: 300px;
+
+/* Heading 4 */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #6A7081;
+}
+.suggested-item1 h1{
+position: absolute;
+width: 59px;
+height: 17px;
+left: 200px;
+/*top: 1669px;*/
+top:350px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+text-align: center;
+color: rgba(106, 112, 129, 0.4);
 }
 .suggested-item2{
 position: absolute;
 width: 490px;
 height: 246px;
-left: 703px;
-top: 60px;
+left:500px;
+/*left: 703px;*/
+top: 100px;
+}
+.suggested-item2 p{
+    position: absolute;
+width: 215px;
+height: 32px;
+left: 150px;
+top:300px;
+/*top: 1633px;
+/* Heading 4 */
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+text-align: center;
+text-transform: uppercase;
+color: #6A7081;
+}
+.suggested-item2 h1{
+    position: absolute;
+width: 70px;
+height: 17px;
+left: 230px;
+/*top: 1669px;*/
+top:350px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+text-align: center;
+color: rgba(106, 112, 129, 0.4);
 }
 .suggested-item3{
     position: absolute;
 width: 548px;
 height: 308px;
-left: 1203px;
-top: 60px;
-
+left:1003px;
+/*left: 1203px;*/
+top: 100px;
 }
-.read-more{
+.suggested-item3 p{
+    position: absolute;
+width: 301px;
+height: 32px;
+left: 150px;
+top:300px;
+/*top: 1633px;
+/* Heading 4 */
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+text-transform: uppercase;
+color: #6A7081;
+}
+.suggested-item3 h1{
+    position: absolute;
+width: 56px;
+height: 17px;
+left: 250px;
+/*top: 1669px;*/
+top:350px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+color: rgba(106, 112, 129, 0.4);
+}
+/* FOR ABOUT DIV*/
+.about{
     position: absolute;
 width: 1920px;
 height: 801px;
@@ -394,24 +499,58 @@ left: 0px;
 top: 1831px;
 background: #F8F8F9;
 }
+.read-more{
+    position: absolute;
+    width: 764px;
+height: 555px;
+left: 145px;
+background: #FFFFFF;
+top: 15%;
+}
+.read-more img{
+    position: absolute;
+width: 625px;
+height: 309px;
+left: 100px;
+/*top: 2049px;*/
+top:10%;
+}
 .read-more button{
     width: 129px;
     height: 40px;
     position: absolute;
-left: 0.67%;
+    left:100px;
+/*left: 0.67%;*/
 right: 30.42%;
-top: 60%;
+top: 70%;
 bottom: 22.5%;
 font-family: Tajawal;
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
 line-height: 17px;
+border-style: none; 
 /* identical to box height */
 letter-spacing: 0.05em;
-
 color: #FFFFFF;
     background: #005EAD;
+}
+/*.read-more button img{
+    position: absolute;
+left: 35.79%;
+right: 33.33%;
+top: 25%;
+bottom: 25%;
+background: #FFFFFF;
+}*/
+.read-more1{
+    position: absolute;
+width: 578px;
+height: 555px;
+left: 909px;
+top: 15%;
+
+background: #DCDCDC;
 }
 
 .class-logo{
