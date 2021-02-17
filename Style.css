@@ -553,14 +553,108 @@ top: 15%;
 background: #DCDCDC;
 }
 
+/*FOR BRANDS LOGO */
 .class-logo{
     position: absolute;
 width: 1530px;
 height: 181.81px;
-left: 195px;
+/*left: 195px;*/
+left:90px;
 top: 2649.59px;
+padding: 10px;
+margin:centre;
 }
+.brand1{
+position: absolute;
+width: 119.22px;
+height: 100.34px;
+left:90px;
+/*left: 195px;
+top: 2690.33px;*/
+top:20%;
+}
+.brand2{
+position: absolute;
+width: 141.08px;
+height: 142.07px;
+left:240px;
+/*left: 346.01px;
+/*top: 2669.46px;*/
+top:15%;
+}
+.brand3{
+position: absolute;
+width: 136.11px;
+height: 181.81px;
+left:400px;
+/*left: 504.97px;
+/*top: 2649.59px;*/
+top:0%;
+}
+.brand4{
+position: absolute;
+width: 127.17px;
+height: 84.45px;
+/*left: 673.87px;
+top: 2698.28px;*/
+left:573px;
+top:20%;
+}
+.brand5{
+    position: absolute;
+width: 148.03px;
+height: 111.27px;
+/*left: 820.91px;
+top: 2685.36px;*/
+left:720px;
+top:17%;
+}
+.brand6{
+position: absolute;
+width: 107.3px;
+height: 106.31px;
+/*left: 998.75px;
+top: 2687.35px;*/
+left: 898px;
+top:20%;
 
+}
+.brand7{
+    position: absolute;
+width: 139.09px;
+height: 79.48px;
+/*left: 1140.82px;
+top: 2701.26px;*/
+left:1040px;
+top:30%;
+}
+.brand8{
+position: absolute;
+width: 113.26px;
+height: 66.56px;
+/*left: 1318.66px;
+top: 2708.21px;*/
+left:1218px;
+top:30%;
+}
+.brand9{
+position: absolute;
+width: 129.16px;
+height: 124.19px;
+/*left: 1458.66px;
+top: 2678.41px;*/
+left:1358px;
+top:17%;
+}
+.brand10{
+    position: absolute;
+width: 116.24px;
+height: 98.36px;
+/*left: 1608.76px;
+top: 2692.31px;*/
+left:1520px;
+top:20%;
+}
 .vehicle-type{
     position: absolute;
 width: 1920px;
