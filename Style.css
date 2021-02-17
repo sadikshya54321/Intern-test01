@@ -655,6 +655,7 @@ top: 2692.31px;*/
 left:1520px;
 top:20%;
 }
+/* FOR VEHICLE TYPE DIV*/
 .vehicle-type{
     position: absolute;
 width: 1920px;
@@ -662,6 +663,23 @@ height: 860px;
 left: 0px;
 top: 2852px;
 background: #005EAD;
+/* identical to box height */
+display: grid;
+grid-column: auto auto auto;
+}
+.vehicle-type h1{
+    position: absolute;
+width: 267px;
+height: 44px;
+left: 195px;
+top: 2%;
+/*top: 2943px;
+/* Heading 3 */
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
 /* identical to box height */
 color: #FFFFFF;
 }
@@ -693,7 +711,34 @@ top: 4877px;
 background: #FFFFFF;
 }
 
+.footer{
+    position: absolute;
+width: 1530px;
+height: 50px;
+left: 195px;
+/*top: 5160px;*/
+top:4800px;
+background: #F8F8F9;
+}
+.footer p{
+    position: absolute;
+width: 140px;
+height: 32px;
+left: 214px;
+/*top: 5171px;*/
+top:5%;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 32px;
+/* identical to box height, or 229% */
 
+text-transform: uppercase;
+
+color: #6A7081;
+
+}
 
 
 
