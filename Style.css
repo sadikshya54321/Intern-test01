@@ -31,7 +31,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     height: 72px; 
-    
 }
 nav ul{
     display: flex;
@@ -207,6 +206,8 @@ line-height: 22px;
 color: #FFFFFF;
 background: #2AAEF8;
 }
+
+
 /*FOR SEARCH DIV */
 .grid-container{
     position: absolute;
@@ -329,6 +330,9 @@ letter-spacing: 0.05em;
 background-color: #005EAD;
 color: #FFFFFF;
 }
+
+
+
 /*FOR SUGGESTED CAR DIV*/
 .suggested-cars{
 position: absolute;
@@ -655,6 +659,8 @@ top: 2692.31px;*/
 left:1520px;
 top:20%;
 }
+
+
 /* FOR VEHICLE TYPE DIV*/
 .vehicle-type{
     position: absolute;
@@ -669,10 +675,11 @@ grid-column: auto auto auto;
 }
 .vehicle-type h1{
     position: absolute;
-width: 267px;
+/*width: 267px;*/
+width:300px;
 height: 44px;
 left: 195px;
-top: 2%;
+top: 9%;
 /*top: 2943px;
 /* Heading 3 */
 font-family: Montserrat;
@@ -683,10 +690,63 @@ line-height: 44px;
 /* identical to box height */
 color: #FFFFFF;
 }
+.sedan{
+    position: absolute;
+width: 490px;
+height: 525px;
+left: 195px;
+/*top: 3066px;*/
+top:20%;
 
+}
+.sedan h1{
+    position: absolute;
+width: 144px;
+height: 43.27px;
+/*left: 259px;
+top: 3537.43px;*/
+left:60px;
+top:85%;
+/*background: #C4C4C4;*/
+}
+.suv{
+    position: absolute;
+width: 490px;
+height: 525px;
+left: 715px;
+/*top: 3066px;*/
+top:20%;
+}
+.suv h1{
+position: absolute;
+width: 216px;
+height: 36.39px;
+/*left: 779px;
+top: 3540.38px;*/
+left:60px;
+top:85%
+}
+.commercial{
+    position: absolute;
+width: 490px;
+height: 525px;
+left: 1235px;
+/*top: 3066px;*/
+top:20%;
+}
+.commercial h1{
+    position: absolute;
+width: 280px;
+height: 43.36px;
+/*left: 1299px;
+top: 3537.38px;*/
+left: 60px;
+top:85%;
+}
 .Our-offers{
 position: absolute;
-width: 1530px;
+/*width: 1530px;*/
+width: 1920px;
 height: 761px;
 left: 195px;
 top: 3812px;
@@ -701,7 +761,72 @@ left: 178px;
 top: 3886px;
 background-image: url("images/newyr.png");
 }
+.subscribe{
+    position: absolute;
+width: 1920px;
+height: 200px;
+left: 0px;
+top: 4678px;
 
+/* Dark 40% */
+
+background: #C3C6CD;
+}
+.subscribe h1{
+    position: absolute;
+width: 337px;
+height: 88px;
+left: 195px;
+/*top: 4736px;*/
+top:30%;
+/* Heading 3 */
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+color: #FFFFFF;
+}
+.subscribe input[type=text]{
+position: absolute;
+/*left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;*/
+width:396px;
+height: 60px;
+left:30%;
+top:30%;
+padding: 12px;
+margin:8px 0;
+border-style: none;
+background: #FFFFFF;
+}
+.subscribe input[type=email]{
+    position: absolute;
+    width: 395px;
+    height: 60px;
+    left:53%;
+    top:30%;
+    padding: 12px;
+margin:8px 0;
+    border-style: none;
+    background: #FFFFFF;
+}
+.subscribe input[type=submit]{
+    position: absolute;
+width: 230px;
+height: 60px;
+/*left: 1495px;
+top: 4750px;*/
+left: 78%;
+top:30%;
+/* Primary Color */
+padding: 12px;
+margin:8px 0;
+border-style: none;
+background: #005EAD;
+}
 .content{
     position: absolute;
 width: 1920px;
@@ -710,7 +835,20 @@ left: 0px;
 top: 4877px;
 background: #FFFFFF;
 }
-
+.logo2{
+   /* position: absolute;
+width: 395px;
+height: 60px;
+left: 1071px;
+top: 4750px;
+*/
+    position: absolute;
+width: 107.89px;
+height: 31.28px;
+left: 195px;
+/*top: 4945px;*/
+top:5%;
+}
 .footer{
     position: absolute;
 width: 1530px;
@@ -720,26 +858,40 @@ left: 195px;
 top:4800px;
 background: #F8F8F9;
 }
-.footer p{
+.footer h1{
     position: absolute;
 width: 140px;
 height: 32px;
-left: 214px;
+/*left: 214px;
 /*top: 5171px;*/
-top:5%;
+left:105px;
+top:20%;
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 32px;
 /* identical to box height, or 229% */
-
 text-transform: uppercase;
-
 color: #6A7081;
-
 }
-
+.footer h2{
+    position: absolute;
+width: 300px;
+height: 32px;
+/*left: 1405px;
+/*top: 5171px;*/
+top:20%;
+left:1200px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 32px;
+/* identical to box height, or 229% */
+text-transform: uppercase;
+color: #6A7081;
+}
 
 
 
