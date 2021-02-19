@@ -745,22 +745,52 @@ top:85%;
 }
 .Our-offers{
 position: absolute;
-/*width: 1530px;*/
 width: 1920px;
-height: 761px;
+height: 970px;
+left: 0px;
+/*top: 3812px;*/
+top:3712px;
+background: #E5E5E5;
+}
+.Our-offers h1{
+    position: absolute;
+width: 245px;
+height: 44px;
 left: 195px;
-top: 3812px;
+/*top: 3812px;*/
+top:10%;
+/* Heading 3 */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+
+/* Primary Color */
+
 color: #005EAD;
 }
-
-.Our-offers offer-container{
+.offer-container{
+    position: absolute;
+width: 1530px;
+/*width: 1920px;*/
+height: 761px;
+left: 195px;
+/*top: 3812px;*/
+top:15%;
+color: #005EAD;
+}
+/*.Our-offers offer-container{
 position: absolute;
 width: 905px;
 height: 522px;
 left: 178px;
 top: 3886px;
 background-image: url("images/newyr.png");
-}
+}*/
 .subscribe{
     position: absolute;
 width: 1920px;
