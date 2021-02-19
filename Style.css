@@ -126,6 +126,7 @@ font-weight: 600;
 font-size: 14px;
 line-height: 17px;
 }
+/* FOR SEARCH DIV*/
 .search-box{
     position: absolute;
 left: 8.79%;
@@ -206,9 +207,6 @@ line-height: 22px;
 color: #FFFFFF;
 background: #2AAEF8;
 }
-
-
-/*FOR SEARCH DIV */
 .grid-container{
     position: absolute;
 width: 1920px;
@@ -951,6 +949,14 @@ padding: 12px;
 margin:8px 0;
 border-style: none;
 background: #005EAD;
+color: #FFFFFF;
+}
+.subscribe input[type=image]{
+    position: absolute;
+left: 86.33%;
+right: 8.33%;
+top:45%;
+bottom: 16.67%;
 }
 .content{
     position: absolute;
@@ -968,11 +974,27 @@ left: 1071px;
 top: 4750px;
 */
     position: absolute;
-width: 107.89px;
+    float: left;
+    padding: 2px;
+width: 25%;
 height: 31.28px;
 left: 195px;
 /*top: 4945px;*/
-top:5%;
+top:15%;
+}
+.social-icon{
+    position: absolute;
+width: 351px;
+height: 56px;
+left: 197px;
+/*top: 5029px;*/
+top:35%;
+padding: 10px;
+justify-content: space-between;
+display: flex;
+}
+.customer-service{
+
 }
 .footer{
     position: absolute;
