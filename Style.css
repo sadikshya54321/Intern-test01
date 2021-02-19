@@ -760,37 +760,132 @@ left: 195px;
 /*top: 3812px;*/
 top:10%;
 /* Heading 3 */
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
 font-size: 36px;
 line-height: 44px;
 /* identical to box height */
-
-
 /* Primary Color */
-
 color: #005EAD;
 }
-.offer-container{
+/*.offer-container{
     position: absolute;
 width: 1530px;
-/*width: 1920px;*/
 height: 761px;
 left: 195px;
 /*top: 3812px;*/
-top:15%;
+/*top:15%;
 color: #005EAD;
-}
-/*.Our-offers offer-container{
+}*/
+.offer-container{
 position: absolute;
 width: 905px;
 height: 522px;
 left: 178px;
-top: 3886px;
-background-image: url("images/newyr.png");
-}*/
+/*top: 3886px;*/
+top:20%;
+}
+.offer-container h2{
+    position: absolute;
+width: 342px;
+height: 44px;
+left: 1px;
+/*top: 4419px;*/
+top:90%;
+/* Heading 3 */
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* Primary Color */
+color: #005EAD;
+}
+.offer-container p{
+    position: absolute;
+width: 247px;
+height: 32px;
+left: 1px;
+/*top: 4470px;*/
+top:98%;
+/* Heading 4 */
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+text-transform: uppercase;
+color: rgba(106, 112, 129, 0.8);
+}
+.offer-container button{
+    position: absolute;
+width: 150px;
+height: 40px;
+left: 1px;
+/*top: 4533px;*/
+top:110%;
+background: #005EAD;
+border-style: none;
+color: #FFFFFF;
+}
+.offer-container2{
+    position: absolute;
+width: 960px;
+height: 520px;
+/*left: 855px;
+top: 3921px;*/
+top:20%;
+left:955px;
+}
+.offer-container2 h2{
+    position: absolute;
+width: 358px;
+height: 44px;
+left: 1px;
+/*top: 4419px;*/
+top:90%;
+/* Heading 3 */
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+/* Primary Color */
+color: #005EAD;
+}
+.offer-container2 p{
+    position: absolute;
+width: 252px;
+height: 32px;
+left: 1px;
+/*top: 4470px;*/
+top:98%;
+/* Heading 4 */
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+text-transform: uppercase;
+color: rgba(106, 112, 129, 0.8);
+}
+.offer-container2 button{
+    position: absolute;
+width: 150px;
+height: 40px;
+left: 1px;
+/*top: 4533px;*/
+top:110%;
+border-style: none;
+background: #005EAD;
+color: #FFFFFF;
+}
+
+/* FOR SUBSCRIBE CONTAINER*/
 .subscribe{
     position: absolute;
 width: 1920px;
