@@ -1001,7 +1001,14 @@ list-style: none;
 font-family: Montserrat;
 font-style: normal;
 color: rgba(106, 112, 129, 0.8);
-display: flex;
+display: grid;
+position: absolute;
+width: 208px;
+height: 72px;
+left: 632px;
+/*top: 4993px;*/
+top:35%;
+
 }
 a{
     text-decoration: none;
@@ -1013,7 +1020,7 @@ width: 120px;
 height: 32px;
 left: 632px;
 /*top: 4936px;*/
-top:50%;
+top:15%;
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
@@ -1022,12 +1029,45 @@ line-height: 32px;
 color: #005EAD;
 }
 .company li{
+position: absolute;
+width: 230px;
+height: 138px;
+left: 975px;
+/*top: 4985px;*/
+top:35%;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+/* or 200% */
+
+text-transform: uppercase;
+line-height: 10px;
    list-style: none;
     margin: 10px;
 font-family: Montserrat;
 font-style: normal;
 color: rgba(106, 112, 129, 0.8);
 display: flex; 
+}
+.company h1{
+    position: absolute;
+width: 130px;
+height: 32px;
+left: 975px;
+/*top: 4936px;*/
+top:15%;
+/* Heading 4 */
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+text-transform: uppercase;
+/* Primary Color */
+color: #005EAD;
 }
 .showroom li{
     list-style: none;
@@ -1036,6 +1076,30 @@ font-family: Montserrat;
 font-style: normal;
 color: rgba(106, 112, 129, 0.8);
 display: flex;
+position: absolute;
+width: 230px;
+height: 138px;
+left: 1235px;
+/*top: 4985px;*/
+top:35%;
+}
+.showroom h1{
+    position: absolute;
+width: 163px;
+height: 32px;
+left: 1235px;
+/*top: 4936px;*/
+top:15%;
+/* Heading 4 */
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+text-transform: uppercase;
+/* Primary Color */
+color: #005EAD;
 }
 .customer-care li{
     list-style: none;
@@ -1044,6 +1108,30 @@ font-family: Montserrat;
 font-style: normal;
 color: rgba(106, 112, 129, 0.8);
 display: flex;
+position: absolute;
+width: 230px;
+height: 138px;
+left: 1495px;
+/*top: 4985px;*/
+top:35%;
+}
+.customer-care h1{
+    position: absolute;
+width: 218px;
+height: 32px;
+left: 1495px;
+/*top: 4936px;*/
+top:15%;
+/* Heading 4 */
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+text-transform: uppercase;
+/* Primary Color */
+color: #005EAD;
 }
 .footer{
     position: absolute;
