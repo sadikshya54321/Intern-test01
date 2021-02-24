@@ -32,7 +32,7 @@ nav {
     justify-content: space-between;
     height: 72px; 
 }
-nav ul{
+.wrapper ul{
     display: flex;
     margin: 10px;
     padding: 0;
@@ -960,28 +960,93 @@ right: 8.33%;
 top:45%;
 bottom: 16.67%;
 }
-.content{
+.footer{
+    background: #FFFFFF;
+    height: 363px;
     position: absolute;
 width: 1920px;
-height: 363px;
 left: 0px;
-top: 4877px;
-background: #FFFFFF;
+top:4877px;
 }
-.logo2{
-   /* position: absolute;
-width: 395px;
-height: 60px;
-left: 1071px;
-top: 4750px;
-*/
+.footer .footer-content{
+  border: 1px solid red;
+  height: 360px;
+  display: flex;
+}
+.footer .footer-content .footer-section{
+    flex: 1;
+    border:  1px solid blue;
+    padding: 25px;
+}
+.footer .footer-content h2,
+.footer .footer-content h3,
+.footer .footer-content h4,
+.footer .footer-content h5{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+text-transform: uppercase;
+/* Primary Color */
+color: #005EAD;
+}
+.footer .footer-content h1{
+     font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+color: #005EAD;
+}
+.footer .footer-content h1 span{
+    
+}
+.footer .footer-bottom{
+    position: absolute;
+width: 1530px;
+height: 50px;
+left: 195px;
+/*top: 5160px;*/
+top:350px;
+background: #F8F8F9;
+text-align: right;
+bottom: 0px;
+padding: 20px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 32px;
+/* identical to box height, or 229% */
+text-transform: uppercase;
+color: #6A7081;
+}
+.footer .footer-bottom h1{
+    text-align: left;
+    position: absolute;
+width: 140px;
+height: 32px;
+top:20%;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 32px;
+/* identical to box height, or 229% */
+text-transform: uppercase;
+color: #6A7081;
+}
+/*.logo2{
     position: absolute;
     float: left;
     padding: 2px;
 width: 25%;
 height: 31.28px;
 left: 195px;
-/*top: 4945px;*/
+top: 4945px;
 top:15%;
 }
 .social-icon{
@@ -989,26 +1054,30 @@ top:15%;
 width: 351px;
 height: 56px;
 left: 197px;
-/*top: 5029px;*/
+top: 5029px;
 top:35%;
 padding: 10px;
 justify-content: space-between;
 display: flex;
 }
 .contact li{
-list-style: none;
+    list-style: none;
     margin: 10px;
 font-family: Montserrat;
 font-style: normal;
-color: rgba(106, 112, 129, 0.8);
-display: grid;
+}
+.contact li a{
+
+line-height: 17px;
+color: #6A7081;
+font-family: Montserrat;
+font-size: 14px;
+text-decoration: none;
+justify-content: space-between;
 position: absolute;
 width: 208px;
-height: 72px;
 left: 632px;
-/*top: 4993px;*/
 top:35%;
-
 }
 a{
     text-decoration: none;
@@ -1019,7 +1088,7 @@ a{
 width: 120px;
 height: 32px;
 left: 632px;
-/*top: 4936px;*/
+top: 4936px;
 top:15%;
 font-family: Montserrat;
 font-style: normal;
@@ -1033,11 +1102,11 @@ position: absolute;
 width: 230px;
 height: 138px;
 left: 975px;
-/*top: 4985px;*/
+top: 4985px;
 top:35%;
-line-height: 32px;
+line-height: 32px;*/
 /* or 200% */
-text-transform: uppercase;
+/*text-transform: uppercase;
    list-style: none;
     margin: 10px;
 font-family: Montserrat;
@@ -1050,18 +1119,19 @@ display: inline-block;
 width: 130px;
 height: 32px;
 left: 975px;
-/*top: 4936px;*/
+top: 4936px;
 top:15%;
 /* Heading 4 */
+/*
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
 line-height: 32px;
 /* identical to box height, or 133% */
-text-transform: uppercase;
+/*text-transform: uppercase;
 /* Primary Color */
-color: #005EAD;
+/*color: #005EAD;
 }
 .showroom li{
     list-style: none;
@@ -1074,7 +1144,7 @@ position: absolute;
 width: 230px;
 height: 138px;
 left: 1235px;
-/*top: 4985px;*/
+/*top: 4985px;
 top:35%;
 }
 .showroom h1{
@@ -1082,94 +1152,60 @@ top:35%;
 width: 163px;
 height: 32px;
 left: 1235px;
-/*top: 4936px;*/
+/*top: 4936px;
 top:15%;
 /* Heading 4 */
+/*
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
 line-height: 32px;
 /* identical to box height, or 133% */
+/*
 text-transform: uppercase;
 /* Primary Color */
+/*
 color: #005EAD;
+
 }
 .customer-care li{
     list-style: none;
-    margin: 10px;
+    /*margin: 10px;
 font-family: Montserrat;
 font-style: normal;
 color: rgba(106, 112, 129, 0.8);
-display: inline-block;
+/*display: inline-block;*/
+/*
 position: absolute;
 width: 230px;
 height: 138px;
 left: 1495px;
-/*top: 4985px;*/
+/*top: 4985px;
+
 top:35%;
+/*padding: 10px;
 }
 .customer-care h1{
     position: absolute;
 width: 218px;
 height: 32px;
 left: 1495px;
-/*top: 4936px;*/
+/*top: 4936px;
 top:15%;
 /* Heading 4 */
+/*
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
 line-height: 32px;
-/* identical to box height, or 133% */
+/* identical to box height, or 133% 
 text-transform: uppercase;
-/* Primary Color */
+/* Primary Color 
 color: #005EAD;
 }
-.footer{
-    position: absolute;
-width: 1530px;
-height: 50px;
-left: 195px;
-/*top: 5160px;*/
-top:300px;
-background: #F8F8F9;
-}
-.footer h1{
-    position: absolute;
-width: 140px;
-height: 32px;
-/*left: 214px;
-/*top: 5171px;*/
-left:135px;
-top:20%;
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 32px;
-/* identical to box height, or 229% */
-text-transform: uppercase;
-color: #6A7081;
-}
-.footer h2{
-    position: absolute;
-width: 300px;
-height: 32px;
-/*left: 1405px;
-/*top: 5171px;*/
-top:20%;
-left:1200px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 32px;
-/* identical to box height, or 229% */
-text-transform: uppercase;
-color: #6A7081;
-}
+
 
 
 
