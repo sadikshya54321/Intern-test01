@@ -1000,10 +1000,56 @@ font-size: 24px;
 line-height: 32px;
 /* identical to box height, or 133% */
 color: #005EAD;
+height: 31.28px;
+width: 224px;
 }
 .footer .footer-content h1 span{
-    
+    color: #6A7081;
+    height: 31.28px;
+
 }
+
+.footer .footer-content .socials {
+    position: absolute;
+width: 251px;
+height: 56px;
+left: 19px;
+/*top: 5029px;*/
+top:40%;
+padding: 10px;
+justify-content: space-between;
+display: flex;
+
+}
+.footer .footer-content .contact span{
+display: block;
+margin-bottom: 20px;
+padding: 2px;
+margin-top: 20px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 36px;
+/* or 225% */
+color: rgba(106, 112, 129, 0.8);
+width: 208px;
+}
+.footer .footer-content .company span{
+    display: block;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+/* or 200% */
+text-transform: uppercase;
+color: #6A7081;
+width: 230px;
+padding: 2px;
+margin-top: 20px;
+}
+
 .footer .footer-bottom{
     position: absolute;
 width: 1530px;
