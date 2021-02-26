@@ -88,11 +88,42 @@ justify-content: space-between;
     text-decoration-color:  blue;
     color:  blue;
 }
-.wrapper2{
+.search{
 width: 1880px;
 margin: 0 ;
 border-radius: 0px;
 
+}
+.search canvas{
+    position: absolute;
+width: 20px;
+height: 3px;
+left: 926px;
+top: 915px;
+
+/* Blue 2 */
+
+background: #2D9CDB;
+}
+.search canvas1{
+    position: absolute;
+width: 20px;
+height: 3px;
+left: 950px;
+top: 915px;
+background: #005EAD;
+}
+
+.search canvas2{
+    position: absolute;
+width: 20px;
+height: 3px;
+left: 974px;
+top: 915px;
+
+/* Blue 2 */
+
+background: #2D9CDB;
 }
 .first-content{
 text-align: left;
@@ -126,6 +157,7 @@ font-weight: 600;
 font-size: 14px;
 line-height: 17px;
 }
+
 /* FOR SEARCH DIV*/
 .search-box{
     position: absolute;
@@ -358,14 +390,24 @@ line-height: 44px;
 color: #005EAD;
 text-align: left;
 }
-/*.column{
-    flex: 50%;
-    padding: 0 4px;
+.suggested-cars canvas{
+position: absolute;
+width: 230px;
+height: 5px;
+left: 5px;
+top:10%;
+/* Primary Color */
+background: #005EAD;
 }
-.column img{
-    margin-top: 8px;
+.suggested-cars canvas1{
+  position: absolute;
+width: 185px;
+height: 5px;
+left: 75px;
+top: 10%;
 
-}*/
+background: linear-gradient(0deg, #2AAEF8, #2AAEF8), #263676;  
+}
 .suggested-item1{
 position: absolute;
 width: 438px;
@@ -556,7 +598,7 @@ background: #DCDCDC;
 }
 
 /*FOR BRANDS LOGO */
-.class-logo{
+.brands{
     position: absolute;
 width: 1530px;
 height: 181.81px;
@@ -688,6 +730,22 @@ line-height: 44px;
 /* identical to box height */
 color: #FFFFFF;
 }
+.vehicle-type canvas{
+    position: absolute;
+width: 83px;
+height: 5px;
+left: 195px;
+top:14%;
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+.vehicle-type canvas1{
+    position: absolute;
+width: 139px;
+height: 5px;
+left: 240px;
+top: 14%;
+background: linear-gradient(0deg, #2AAEF8, #2AAEF8), #FFFFFF;
+}
 .sedan{
     position: absolute;
 width: 490px;
@@ -766,6 +824,24 @@ line-height: 44px;
 /* identical to box height */
 /* Primary Color */
 color: #005EAD;
+}
+.Our-offers canvas{
+    position: absolute;
+width: 85px;
+height: 5px;
+left: 195px;
+top: 15%;
+/* Primary Color */
+background: #005EAD;
+}
+
+.Our-offers canvas1{
+    position: absolute;
+width: 127px;
+height: 5px;
+left: 240px;
+top: 15%;
+background: #2AAEF8;
 }
 /*.offer-container{
     position: absolute;
@@ -969,13 +1045,11 @@ left: 0px;
 top:4877px;
 }
 .footer .footer-content{
-  border: 1px solid red;
   height: 360px;
   display: flex;
 }
 .footer .footer-content .footer-section{
     flex: 1;
-    border:  1px solid blue;
     padding: 25px;
 }
 .footer .footer-content h2,
@@ -1006,9 +1080,7 @@ width: 224px;
 .footer .footer-content h1 span{
     color: #6A7081;
     height: 31.28px;
-
 }
-
 .footer .footer-content .socials {
     position: absolute;
 width: 251px;
@@ -1019,7 +1091,6 @@ top:40%;
 padding: 10px;
 justify-content: space-between;
 display: flex;
-
 }
 .footer .footer-content .contact span{
 display: block;
@@ -1046,10 +1117,32 @@ line-height: 32px;
 text-transform: uppercase;
 color: #6A7081;
 width: 230px;
-padding: 2px;
 margin-top: 20px;
 }
-
+a{
+   text-decoration: none; 
+   color: #6A7081;
+}
+.footer .footer-content .showroom a{
+    display: block;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+width: 230px;
+margin-top: 20px;
+}
+.footer .footer-content .customer-care a{
+    display: block;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+width: 230px;
+margin-top: 20px;
+}
 .footer .footer-bottom{
     position: absolute;
 width: 1530px;
@@ -1085,172 +1178,11 @@ line-height: 32px;
 text-transform: uppercase;
 color: #6A7081;
 }
-/*.logo2{
-    position: absolute;
-    float: left;
-    padding: 2px;
-width: 25%;
-height: 31.28px;
-left: 195px;
-top: 4945px;
-top:15%;
-}
-.social-icon{
-    position: absolute;
-width: 351px;
-height: 56px;
-left: 197px;
-top: 5029px;
-top:35%;
-padding: 10px;
-justify-content: space-between;
-display: flex;
-}
-.contact li{
-    list-style: none;
-    margin: 10px;
-font-family: Montserrat;
-font-style: normal;
-}
-.contact li a{
 
-line-height: 17px;
-color: #6A7081;
-font-family: Montserrat;
-font-size: 14px;
-text-decoration: none;
-justify-content: space-between;
-position: absolute;
-width: 208px;
-left: 632px;
-top:35%;
-}
-a{
-    text-decoration: none;
-    color: #6A7081;
-}
-.contact h1{
-    position: absolute;
-width: 120px;
-height: 32px;
-left: 632px;
-top: 4936px;
-top:15%;
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 32px;
-color: #005EAD;
-}
-.company li{
-position: absolute;
-width: 230px;
-height: 138px;
-left: 975px;
-top: 4985px;
-top:35%;
-line-height: 32px;*/
-/* or 200% */
-/*text-transform: uppercase;
-   list-style: none;
-    margin: 10px;
-font-family: Montserrat;
-font-style: normal;
-color: rgba(106, 112, 129, 0.8);
-display: inline-block; 
-}
-.company h1{
-    position: absolute;
-width: 130px;
-height: 32px;
-left: 975px;
-top: 4936px;
-top:15%;
-/* Heading 4 */
-/*
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 32px;
-/* identical to box height, or 133% */
-/*text-transform: uppercase;
-/* Primary Color */
-/*color: #005EAD;
-}
-.showroom li{
-    list-style: none;
-    margin: 10px;
-font-family: Montserrat;
-font-style: normal;
-color: rgba(106, 112, 129, 0.8);
-display: flex;
-position: absolute;
-width: 230px;
-height: 138px;
-left: 1235px;
-/*top: 4985px;
-top:35%;
-}
-.showroom h1{
-    position: absolute;
-width: 163px;
-height: 32px;
-left: 1235px;
-/*top: 4936px;
-top:15%;
-/* Heading 4 */
-/*
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 32px;
-/* identical to box height, or 133% */
-/*
-text-transform: uppercase;
-/* Primary Color */
-/*
-color: #005EAD;
 
-}
-.customer-care li{
-    list-style: none;
-    /*margin: 10px;
-font-family: Montserrat;
-font-style: normal;
-color: rgba(106, 112, 129, 0.8);
-/*display: inline-block;*/
-/*
-position: absolute;
-width: 230px;
-height: 138px;
-left: 1495px;
-/*top: 4985px;
 
-top:35%;
-/*padding: 10px;
-}
-.customer-care h1{
-    position: absolute;
-width: 218px;
-height: 32px;
-left: 1495px;
-/*top: 4936px;
-top:15%;
-/* Heading 4 */
-/*
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 32px;
-/* identical to box height, or 133% 
-text-transform: uppercase;
-/* Primary Color 
-color: #005EAD;
-}
+
+
 
 
 
